@@ -1,0 +1,14 @@
+# Language detection rules
+# Default behavior
+docs/index.html linguist-vendored
+*.png binary
+*.yaml linguist-detectable=false
+
+*.svg text
+vendor/* linguist-vendored
+*.jpeg binary
+
+build/* linguist-vendored
+
+*.map linguist-generated
+*.css linguist-detectable
